@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="online.luffyk.dao.ConsumerMapper">
+    <!--获取数据库中所有顾客的信息-->
+    <select id="showAllConsumer" resultType="Consumer">
+        select * from consumer;
+    </select>
+
+    <!--根据Id获取顾客的信息-->
+    <select id="selectConsumerById" resultType="Consumer">
+        SELECT
+            *
+        FROM
+            consumer
+        WHERE
+            id = #{id};
+    </select>
+
+    <!--根据顾客名和密码查询顾客信息-->
+    <select id="selectConsumerByUserNameAndPassword" resultType="Consumer">
+        SELECT
+            *
+        FROM
+            consumer
+        WHERE
+            username = #{username}
+            AND PASSWORD = #{password}
+    </select>
+
+    <!--往数据库中插入一条顾客的信息-->
+    <insert id="insertOneConsumer">
+        INSERT INTO consumer ( username, PASSWORD, email, phone )
+        VALUES
+            ( #{username}, #{password}, #{email}, #{phone} )
+    </insert>
+
+
+</mapper>

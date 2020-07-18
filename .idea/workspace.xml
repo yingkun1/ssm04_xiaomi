@@ -6,7 +6,282 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b63239ab-44c6-417c-85db-a2ef985736ab" name="Default Changelist" comment="" />
+    <list default="true" id="b63239ab-44c6-417c-85db-a2ef985736ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/ConsumerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/domain/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/ConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/ConsumerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/util/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/ConsumerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/goodslist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/orderhistory.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/reigster.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/shopcart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ad1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ad2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ad3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ad4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ad5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ad6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/adv1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/adv2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/adv3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bn1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bn2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bn3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bn4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bn5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dp1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dp2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/friendlink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gg1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gg2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gg3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gg4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gg5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gg6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gg7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ghs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/10_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/10_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/11_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/11_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/12_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/12_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/13_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/13_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/14_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/14_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/15_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/15_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/16_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/16_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/17_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/17_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/18_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/18_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/19_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/19_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/1_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/1_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/20_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/20_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/21_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/21_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/22_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/22_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/23_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/23_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/24_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/24_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/25_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/25_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/26_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/26_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/27_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/27_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/28_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/28_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/2_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/2_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/3_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/3_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/4_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/4_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/5_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/5_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/6_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/6_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/8_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/8_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/9_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/9_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/9_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goodsImage/9_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jd01.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jd02.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/loginbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/loginlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/order1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/orderres.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pj1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pj2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/search_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/search_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sg3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sgx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/shopcart1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sj01.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sp1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sp2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sp3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sp4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ss01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ss02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ss03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ss04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ss05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zb1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zb2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zn1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zn2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/10_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/10_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/11_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/11_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/12_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/12_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/13_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/13_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/14_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/14_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/15_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/15_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/16_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/16_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/17_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/17_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/18_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/18_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/19_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/19_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/1_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/1_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/20_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/20_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/21_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/21_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/22_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/22_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/23_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/23_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/24_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/24_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/25_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/25_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/26_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/26_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/27_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/27_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/28_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/28_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/2_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/2_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/3_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/3_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/4_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/4_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/5_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/5_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/6_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/6_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/8_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/8_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/9_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/9_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/9_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/goodsImage/9_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/controller/ConsumerControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/ConsumerMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/EmployeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/domain/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/service/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/EmployeeMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/dao/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/domain/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/impl/EmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sqlmap/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/dao/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/domain/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/impl/EmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/springmvc-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/sqlmap/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/jsp/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/aspectjweaver-1.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/c3p0-0.9.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/classmate-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/fastjson-1.2.59.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/hibernate-validator-5.4.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/jsqlparser-0.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/mybatis-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/mybatis-spring-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/mysql-connector-java-5.1.49.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/pagehelper-5.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-aop-4.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-aspects-4.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-beans-4.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-context-4.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-core-4.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-expression-4.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-jdbc-4.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-test-4.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-tx-4.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-web-4.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-webmvc-4.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/ssm04_xiaomi.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/dao/EmployeeMapperTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,13 +292,16 @@
       <list>
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
-        <option value="mapper" />
         <option value="mybatis-config" />
         <option value="Interface" />
         <option value="Kotlin Class" />
+        <option value="mapper" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -46,14 +324,19 @@
     </option>
   </component>
   <component name="ProjectId" id="1eoslzIb2jnrdDV9bwFVFoxXyDM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -64,12 +347,31 @@
       <recent name="" />
       <recent name="online.luffyk.dao" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.511">
-    <configuration name="EmployeeMapperTest.testShowAllEmployees (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsumerControllerTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm04_xiaomi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="online.luffyk.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="online.luffyk.controller" />
+      <option name="MAIN_CLASS_NAME" value="online.luffyk.controller.ConsumerControllerTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMapperTest.testSelectConsumerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm04_xiaomi" />
       <extension name="coverage">
         <pattern>
@@ -78,25 +380,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="online.luffyk.dao" />
-      <option name="MAIN_CLASS_NAME" value="online.luffyk.dao.EmployeeMapperTest" />
-      <option name="METHOD_NAME" value="testShowAllEmployees" />
+      <option name="MAIN_CLASS_NAME" value="online.luffyk.dao.ConsumerMapperTest" />
+      <option name="METHOD_NAME" value="testSelectConsumerById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeMapperTest.testShowAllEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsumerMapperTest.testSelectConsumerByUserNameAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm04_xiaomi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="online.luffyk.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmployeeMapperTest" />
-      <option name="METHOD_NAME" value="testShowAllEmployees" />
+      <option name="PACKAGE_NAME" value="online.luffyk.dao" />
+      <option name="MAIN_CLASS_NAME" value="online.luffyk.dao.ConsumerMapperTest" />
+      <option name="METHOD_NAME" value="testSelectConsumerByUserNameAndPassword" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMapperTest.testShowAllConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm04_xiaomi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="online.luffyk.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="online.luffyk.dao" />
+      <option name="MAIN_CLASS_NAME" value="online.luffyk.dao.ConsumerMapperTest" />
+      <option name="METHOD_NAME" value="testShowAllConsumer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="online.luffyk.controller in ssm04_xiaomi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm04_xiaomi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="online.luffyk.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="online.luffyk.controller" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,13 +509,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5.511" />
-      <item itemvalue="JUnit.EmployeeMapperTest.testShowAllEmployees" />
-      <item itemvalue="JUnit.EmployeeMapperTest.testShowAllEmployees (1)" />
+      <item itemvalue="JUnit.ConsumerMapperTest.testShowAllConsumer" />
+      <item itemvalue="JUnit.ConsumerMapperTest.testSelectConsumerById" />
+      <item itemvalue="JUnit.ConsumerMapperTest.testSelectConsumerByUserNameAndPassword" />
+      <item itemvalue="JUnit.ConsumerControllerTest.testLogin" />
+      <item itemvalue="JUnit.online.luffyk.controller in ssm04_xiaomi" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeMapperTest.testShowAllEmployees (1)" />
-        <item itemvalue="JUnit.EmployeeMapperTest.testShowAllEmployees" />
+        <item itemvalue="JUnit.ConsumerControllerTest.testLogin" />
+        <item itemvalue="JUnit.online.luffyk.controller in ssm04_xiaomi" />
+        <item itemvalue="JUnit.ConsumerMapperTest.testSelectConsumerByUserNameAndPassword" />
+        <item itemvalue="JUnit.ConsumerMapperTest.testSelectConsumerById" />
+        <item itemvalue="JUnit.ConsumerMapperTest.testShowAllConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +558,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594999435047</updated>
-      <workItem from="1594999441678" duration="5503000" />
+      <workItem from="1594999441678" duration="6100000" />
+      <workItem from="1595047420381" duration="11542000" />
     </task>
     <servers />
   </component>
@@ -228,14 +567,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="327" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595000888375">
+    <state x="327" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595061985455">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state x="327" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595000888375" />
-    <state x="675" y="270" key="#com.intellij.ide.util.MemberChooser" timestamp="1595002368140">
+    <state x="327" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595061985455" />
+    <state x="675" y="270" key="#com.intellij.ide.util.MemberChooser" timestamp="1595051629308">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state x="675" y="270" key="#com.intellij.ide.util.MemberChooser/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595002368140" />
+    <state x="675" y="270" key="#com.intellij.ide.util.MemberChooser/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595051629308" />
     <state x="550" y="536" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1595004539236">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
@@ -244,58 +583,82 @@
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
     <state x="651" y="414" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595003325953" />
-    <state width="1284" height="450" key="GridCell.Tab.0.bottom" timestamp="1595004909114">
+    <state x="600" y="301" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595060436382">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="450" key="GridCell.Tab.0.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004909114" />
-    <state width="1284" height="450" key="GridCell.Tab.0.center" timestamp="1595004909113">
+    <state x="600" y="301" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595060436382" />
+    <state width="1284" height="450" key="GridCell.Tab.0.bottom" timestamp="1595062385388">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="450" key="GridCell.Tab.0.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004909113" />
-    <state width="1284" height="450" key="GridCell.Tab.0.left" timestamp="1595004909112">
+    <state width="1284" height="450" key="GridCell.Tab.0.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595062385388" />
+    <state width="1284" height="450" key="GridCell.Tab.0.center" timestamp="1595062385386">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="450" key="GridCell.Tab.0.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004909112" />
-    <state width="1284" height="450" key="GridCell.Tab.0.right" timestamp="1595004909113">
+    <state width="1284" height="450" key="GridCell.Tab.0.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595062385386" />
+    <state width="1284" height="450" key="GridCell.Tab.0.left" timestamp="1595062385386">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="450" key="GridCell.Tab.0.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004909113" />
-    <state width="1284" height="450" key="GridCell.Tab.1.bottom" timestamp="1595004909115">
+    <state width="1284" height="450" key="GridCell.Tab.0.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595062385386" />
+    <state width="1284" height="450" key="GridCell.Tab.0.right" timestamp="1595062385387">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="450" key="GridCell.Tab.1.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004909115" />
-    <state width="1284" height="450" key="GridCell.Tab.1.center" timestamp="1595004909115">
+    <state width="1284" height="450" key="GridCell.Tab.0.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595062385387" />
+    <state width="1284" height="450" key="GridCell.Tab.1.bottom" timestamp="1595062385389">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="450" key="GridCell.Tab.1.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004909115" />
-    <state width="1284" height="450" key="GridCell.Tab.1.left" timestamp="1595004909114">
+    <state width="1284" height="450" key="GridCell.Tab.1.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595062385389" />
+    <state width="1284" height="450" key="GridCell.Tab.1.center" timestamp="1595062385388">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="450" key="GridCell.Tab.1.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004909114" />
-    <state width="1284" height="450" key="GridCell.Tab.1.right" timestamp="1595004909115">
+    <state width="1284" height="450" key="GridCell.Tab.1.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595062385388" />
+    <state width="1284" height="450" key="GridCell.Tab.1.left" timestamp="1595062385388">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="450" key="GridCell.Tab.1.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004909115" />
-    <state width="1284" height="450" key="GridCell.Tab.2.bottom" timestamp="1595004909116">
+    <state width="1284" height="450" key="GridCell.Tab.1.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595062385388" />
+    <state width="1284" height="450" key="GridCell.Tab.1.right" timestamp="1595062385388">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="450" key="GridCell.Tab.2.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004909116" />
-    <state width="1284" height="450" key="GridCell.Tab.2.center" timestamp="1595004909116">
+    <state width="1284" height="450" key="GridCell.Tab.1.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595062385388" />
+    <state width="1284" height="450" key="GridCell.Tab.2.bottom" timestamp="1595062385390">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="450" key="GridCell.Tab.2.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004909116" />
-    <state width="1284" height="450" key="GridCell.Tab.2.left" timestamp="1595004909115">
+    <state width="1284" height="450" key="GridCell.Tab.2.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595062385390" />
+    <state width="1284" height="450" key="GridCell.Tab.2.center" timestamp="1595062385390">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="450" key="GridCell.Tab.2.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004909115" />
-    <state width="1284" height="450" key="GridCell.Tab.2.right" timestamp="1595004909116">
+    <state width="1284" height="450" key="GridCell.Tab.2.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595062385389" />
+    <state width="1284" height="450" key="GridCell.Tab.2.left" timestamp="1595062385389">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="450" key="GridCell.Tab.2.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004909116" />
+    <state width="1284" height="450" key="GridCell.Tab.2.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595062385389" />
+    <state width="1284" height="450" key="GridCell.Tab.2.right" timestamp="1595062385390">
+      <screen x="0" y="23" width="1871" height="1057" />
+    </state>
+    <state width="1284" height="450" key="GridCell.Tab.2.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595062385390" />
+    <state width="1284" height="450" key="GridCell.Tab.3.bottom" timestamp="1595053764840">
+      <screen x="0" y="23" width="1871" height="1057" />
+    </state>
+    <state width="1284" height="450" key="GridCell.Tab.3.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595053764840" />
+    <state width="1284" height="450" key="GridCell.Tab.3.center" timestamp="1595053764840">
+      <screen x="0" y="23" width="1871" height="1057" />
+    </state>
+    <state width="1284" height="450" key="GridCell.Tab.3.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595053764840" />
+    <state width="1284" height="450" key="GridCell.Tab.3.left" timestamp="1595053764839">
+      <screen x="0" y="23" width="1871" height="1057" />
+    </state>
+    <state width="1284" height="450" key="GridCell.Tab.3.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595053764839" />
+    <state width="1284" height="450" key="GridCell.Tab.3.right" timestamp="1595053764840">
+      <screen x="0" y="23" width="1871" height="1057" />
+    </state>
+    <state width="1284" height="450" key="GridCell.Tab.3.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595053764840" />
     <state x="371" y="186" key="SettingsEditor" timestamp="1595004683202">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
     <state x="371" y="186" key="SettingsEditor/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004683202" />
+    <state x="555" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1595047772717">
+      <screen x="0" y="23" width="1871" height="1057" />
+    </state>
+    <state x="555" y="380" key="com.intellij.ide.util.TipDialog/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595047772717" />
     <state x="527" y="256" width="670" height="676" key="search.everywhere.popup" timestamp="1595002561309">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
