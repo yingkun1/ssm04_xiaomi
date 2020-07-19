@@ -23,4 +23,9 @@ public class GoodsServiceImpl implements GoodsService {
     public List<Goods> searchGoodsByNameService(String name) {
         return goodsMapper.searchGoodsByName(name);
     }
+
+    @Override
+    public Goods selectGoodsByIdService(Integer id) {
+        return goodsMapper.selectGoodsById(id);
+    }
 }

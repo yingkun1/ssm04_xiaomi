@@ -251,14 +251,18 @@
 <script type="text/javascript" src="js/jquery/jquery-3.4.1.js"></script>
 <script>
     $(function () {
-        let keywords = window.location.search.split(":")[1];
-        console.log("keywords:"+keywords);
+        let keywords = window.location.search;
+        let level = keywords.substring(1).split("&")[0].split("=")[1];
+        let  goodTypesId  = keywords.substring(1).split("&")[1].split("=")[1];
+        console.log("levle:"+level);
+        console.log("goodsType:"+goodTypesId);
         $.ajax({
-            url:"/u/search/"+keywords,
+            url:"/u/get/"+level+"/"+goodTypesId,
             data:null,
             dataType:"json",
             type:"GET",
             success:function (data) {
+                console.log(data);
                 let goodsList = data.data.goodsList;
                 loadGoods(goodsList,$("#search_goods_box"))
             }

@@ -267,7 +267,7 @@
         function loadGoods(goodsMapElement,container) {
             for(let i =0;i<goodsMapElement.length;i++){
                 let boxitem = $("<div>").addClass("goodsboxitem");
-                let a = $("<a>").attr("href","#");
+                let a = $("<a>").attr("href","/detail.jsp?gid="+goodsMapElement[i].id);
                 let content = $("<div>").addClass("content");
                 let thumb = $("<div>").addClass("thumb");
                 let img = $("<img>").attr("src",goodsMapElement[i].goodsImagesList[0].path);

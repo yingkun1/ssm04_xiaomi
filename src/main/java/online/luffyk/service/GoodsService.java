@@ -9,4 +9,6 @@ public interface GoodsService {
     List<Goods> selectGoodsByGoodsTypeService(GoodsType goodsType);
 
     List<Goods> searchGoodsByNameService(String name);
+
+    Goods selectGoodsByIdService(Integer id);
 }

@@ -32,4 +32,10 @@ public class GoodsMapperTest {
             System.out.println(goods);
         }
     }
+
+    @Test
+    public void testSelectGoodsById(){
+        Goods goodsList = goodsMapper.selectGoodsById(1);
+        System.out.println(goodsList);
+    }
 }

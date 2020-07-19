@@ -56,4 +56,24 @@
         WHERE
             gd.`name` LIKE CONCAT( "%", #{name}, "%" )
     </select>
+
+    <select id="selectGoodsById" resultMap="goodsResultMap">
+        SELECT
+            gd.id,
+            gd.`name`,
+            gd.price,
+            gd.remark,
+            gd.stock,
+            gd.goods_type_id,
+            gi.path,
+            gi.id,
+            gi.title,
+            gi.alt,
+            gi.goods_id
+        FROM
+            goods gd
+            LEFT JOIN goods_images gi ON gd.id = gi.goods_id
+        WHERE
+            gd.id =#{id}
+    </select>
 </mapper>

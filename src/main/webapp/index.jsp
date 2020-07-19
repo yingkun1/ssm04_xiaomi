@@ -673,7 +673,7 @@
                 let goodsTypeList = data.data.goodsTypeList;
                 for(let i =0;i<goodsTypeList.length;i++){
                     console.log(goodsTypeList[i].name);
-                    let li = $("<li>").text(goodsTypeList[i].name);
+                    let li = $("<li>").attr("id",goodsTypeList[i].id).text(goodsTypeList[i].name);
                     let span = $("<span>").append($("<em>").addClass("glyphicon glyphicon-menu-right"));
                     $("#bannel-type > ul").append(li);
                 }
@@ -692,7 +692,7 @@
         function loadGoods(goodsMapElement,container) {
             for(let i =0;i<goodsMapElement.length;i++){
                 let boxitem = $("<div>").addClass("goodsboxitem");
-                let a = $("<a>").attr("href","#");
+                let a = $("<a>").attr("href","/detail.jsp?gid="+goodsMapElement[i].id);
                 let content = $("<div>").addClass("content");
                 let thumb = $("<div>").addClass("thumb");
                 let img = $("<img>").attr("src",goodsMapElement[i].goodsImagesList[0].path);
@@ -716,6 +716,12 @@
             console.log("keywords:"+keywords);
             window.location = "goodslist.jsp?keywords:"+keywords
             window.event.returnValue = false;
+        })
+
+        $("#bannel-type > ul").on("click","li",function () {
+            let goodsTypeId = $(this).prop("id");
+            console.log("goodsTypeId:"+goodsTypeId);
+            window.location = "goodslist2.jsp?level=1&goodsTypeId="+goodsTypeId;
         })
     })
 </script>

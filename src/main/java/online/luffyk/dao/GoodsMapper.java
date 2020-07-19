@@ -22,5 +22,12 @@ public interface GoodsMapper {
      */
     List<Goods> searchGoodsByName(String name);
 
+    /**
+     *
+     * @param id 商品的id
+     * @return 根据id返回对应的商品
+     */
+    Goods selectGoodsById(Integer id);
+
 
 }

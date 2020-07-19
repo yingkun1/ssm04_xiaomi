@@ -7,59 +7,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b63239ab-44c6-417c-85db-a2ef985736ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/controller/UtilsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/GoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/GoodsTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/domain/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/domain/GoodsImages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/domain/GoodsType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/GoodsTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/GoodsTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/GoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/GoodsTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/goodslist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/controller/IndexControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/controller/UtilsControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/GoodsMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/GoodsTypeMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/controller/GoodsControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/ConsumerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/ConsumerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/ConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/ConsumerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/ConsumerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/ConsumerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/ConsumerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/GoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/GoodsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/GoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/goodslist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/goodslist.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/online/luffyk/controller/ConsumerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/controller/ConsumerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/ConsumerMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/ConsumerMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/GoodsMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/GoodsMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/controller/ConsumerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/controller/UtilsController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/dao/ConsumerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/dao/GoodsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/dao/GoodsTypeMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/domain/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/domain/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/domain/GoodsImages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/domain/GoodsType.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/ConsumerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/GoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/GoodsTypeService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/impl/ConsumerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/impl/GoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/impl/GoodsTypeServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/util/Result.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/springmvc-servlet.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sqlmap/ConsumerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sqlmap/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sqlmap/GoodsTypeMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/database.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/log4j.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/controller/ConsumerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/controller/UtilsController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/dao/ConsumerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/dao/GoodsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/dao/GoodsTypeMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/domain/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/domain/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/domain/GoodsImages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/domain/GoodsType.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/ConsumerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/GoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/GoodsTypeService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/impl/ConsumerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/impl/GoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/impl/GoodsTypeServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/util/Result.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/springmvc-servlet.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/sqlmap/ConsumerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/sqlmap/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/sqlmap/GoodsTypeMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/jsp/hello.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/aspectjweaver-1.8.6.jar" beforeDir="false" />
@@ -99,6 +108,7 @@
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/css/orderhistory.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/css/reigster.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/css/shopcart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/goodslist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/goodslist2.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ad1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ad2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ad3.png" beforeDir="false" />
@@ -289,7 +299,11 @@
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/9_3.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/9_4.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/controller/ConsumerControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/controller/IndexControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/controller/UtilsControllerTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/dao/ConsumerMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/dao/GoodsMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/dao/GoodsTypeMapperTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,9 +366,6 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="online.luffyk.dao" />
@@ -362,8 +373,43 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.UtilsControllerTest.testGetGoodsByGoodsType">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.511">
+    <configuration name="GoodsControllerTest.testGetGoodsById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm04_xiaomi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="online.luffyk.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="online.luffyk.controller" />
+      <option name="MAIN_CLASS_NAME" value="online.luffyk.controller.GoodsControllerTest" />
+      <option name="METHOD_NAME" value="testGetGoodsById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsMapperTest.testSelectGoodsById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm04_xiaomi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="online.luffyk.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="online.luffyk.dao" />
+      <option name="MAIN_CLASS_NAME" value="online.luffyk.dao.GoodsMapperTest" />
+      <option name="METHOD_NAME" value="testSelectGoodsById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GoodsTypeMapperTest.testSelectGoodsTypeById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm04_xiaomi" />
       <extension name="coverage">
@@ -380,22 +426,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexControllerTest.testInitIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm04_xiaomi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="online.luffyk.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="online.luffyk.controller" />
-      <option name="MAIN_CLASS_NAME" value="online.luffyk.controller.IndexControllerTest" />
-      <option name="METHOD_NAME" value="testInitIndex" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UtilsControllerTest.testGetGoodsByGoodsType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm04_xiaomi" />
       <extension name="coverage">
@@ -407,22 +437,6 @@
       <option name="PACKAGE_NAME" value="online.luffyk.controller" />
       <option name="MAIN_CLASS_NAME" value="online.luffyk.controller.UtilsControllerTest" />
       <option name="METHOD_NAME" value="testGetGoodsByGoodsType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UtilsControllerTest.testInitIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm04_xiaomi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="online.luffyk.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="online.luffyk.controller" />
-      <option name="MAIN_CLASS_NAME" value="online.luffyk.controller.UtilsControllerTest" />
-      <option name="METHOD_NAME" value="testInitIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -519,20 +533,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IndexControllerTest.testInitIndex" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.511" />
       <item itemvalue="JUnit.UtilsControllerTest.testSearch" />
-      <item itemvalue="JUnit.UtilsControllerTest.testInitIndex" />
       <item itemvalue="JUnit.GoodsTypeMapperTest.testSelectGoodsTypeById" />
       <item itemvalue="JUnit.UtilsControllerTest.testGetGoodsByGoodsType" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.511" />
+      <item itemvalue="JUnit.GoodsMapperTest.testSelectGoodsById" />
+      <item itemvalue="JUnit.GoodsControllerTest.testGetGoodsById" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GoodsMapperTest.testSelectGoodsById" />
+        <item itemvalue="JUnit.GoodsControllerTest.testGetGoodsById" />
         <item itemvalue="JUnit.UtilsControllerTest.testGetGoodsByGoodsType" />
         <item itemvalue="JUnit.UtilsControllerTest.testSearch" />
         <item itemvalue="JUnit.GoodsTypeMapperTest.testSelectGoodsTypeById" />
-        <item itemvalue="JUnit.UtilsControllerTest.testInitIndex" />
-        <item itemvalue="JUnit.IndexControllerTest.testInitIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -571,7 +585,8 @@
       <updated>1594999435047</updated>
       <workItem from="1594999441678" duration="6100000" />
       <workItem from="1595047420381" duration="20113000" />
-      <workItem from="1595147456049" duration="12301000" />
+      <workItem from="1595147456049" duration="12963000" />
+      <workItem from="1595173099052" duration="6114000" />
     </task>
     <servers />
   </component>
@@ -591,62 +606,62 @@
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
     <state x="550" y="536" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004539236" />
-    <state x="651" y="414" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595003325953">
+    <state x="651" y="414" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595173048445">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state x="651" y="414" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595003325953" />
+    <state x="651" y="414" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595173048445" />
     <state x="600" y="301" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595060436382">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
     <state x="600" y="301" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595060436382" />
-    <state width="1667" height="383" key="GridCell.Tab.0.bottom" timestamp="1595171900276">
+    <state width="1316" height="452" key="GridCell.Tab.0.bottom" timestamp="1595181725560">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1667" height="383" key="GridCell.Tab.0.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171900276" />
-    <state width="1667" height="383" key="GridCell.Tab.0.center" timestamp="1595171900275">
+    <state width="1316" height="452" key="GridCell.Tab.0.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725560" />
+    <state width="1316" height="452" key="GridCell.Tab.0.center" timestamp="1595181725559">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1667" height="383" key="GridCell.Tab.0.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171900275" />
-    <state width="1667" height="383" key="GridCell.Tab.0.left" timestamp="1595171900275">
+    <state width="1316" height="452" key="GridCell.Tab.0.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725559" />
+    <state width="1316" height="452" key="GridCell.Tab.0.left" timestamp="1595181725558">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1667" height="383" key="GridCell.Tab.0.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171900275" />
-    <state width="1667" height="383" key="GridCell.Tab.0.right" timestamp="1595171900276">
+    <state width="1316" height="452" key="GridCell.Tab.0.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725558" />
+    <state width="1316" height="452" key="GridCell.Tab.0.right" timestamp="1595181725559">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1667" height="383" key="GridCell.Tab.0.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171900276" />
-    <state width="1284" height="449" key="GridCell.Tab.1.bottom" timestamp="1595171634943">
+    <state width="1316" height="452" key="GridCell.Tab.0.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725559" />
+    <state width="1316" height="452" key="GridCell.Tab.1.bottom" timestamp="1595181725562">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="449" key="GridCell.Tab.1.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171634943" />
-    <state width="1284" height="449" key="GridCell.Tab.1.center" timestamp="1595171634939">
+    <state width="1316" height="452" key="GridCell.Tab.1.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725562" />
+    <state width="1316" height="452" key="GridCell.Tab.1.center" timestamp="1595181725562">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="449" key="GridCell.Tab.1.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171634939" />
-    <state width="1284" height="449" key="GridCell.Tab.1.left" timestamp="1595171634938">
+    <state width="1316" height="452" key="GridCell.Tab.1.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725562" />
+    <state width="1316" height="452" key="GridCell.Tab.1.left" timestamp="1595181725560">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="449" key="GridCell.Tab.1.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171634938" />
-    <state width="1284" height="449" key="GridCell.Tab.1.right" timestamp="1595171634939">
+    <state width="1316" height="452" key="GridCell.Tab.1.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725560" />
+    <state width="1316" height="452" key="GridCell.Tab.1.right" timestamp="1595181725562">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="449" key="GridCell.Tab.1.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171634939" />
-    <state width="1284" height="449" key="GridCell.Tab.2.bottom" timestamp="1595171634945">
+    <state width="1316" height="452" key="GridCell.Tab.1.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725562" />
+    <state width="1316" height="452" key="GridCell.Tab.2.bottom" timestamp="1595181725566">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="449" key="GridCell.Tab.2.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171634945" />
-    <state width="1284" height="449" key="GridCell.Tab.2.center" timestamp="1595171634944">
+    <state width="1316" height="452" key="GridCell.Tab.2.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725566" />
+    <state width="1316" height="452" key="GridCell.Tab.2.center" timestamp="1595181725563">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="449" key="GridCell.Tab.2.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171634944" />
-    <state width="1284" height="449" key="GridCell.Tab.2.left" timestamp="1595171634944">
+    <state width="1316" height="452" key="GridCell.Tab.2.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725563" />
+    <state width="1316" height="452" key="GridCell.Tab.2.left" timestamp="1595181725563">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="449" key="GridCell.Tab.2.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171634944" />
-    <state width="1284" height="449" key="GridCell.Tab.2.right" timestamp="1595171634945">
+    <state width="1316" height="452" key="GridCell.Tab.2.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725563" />
+    <state width="1316" height="452" key="GridCell.Tab.2.right" timestamp="1595181725564">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="449" key="GridCell.Tab.2.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171634945" />
+    <state width="1316" height="452" key="GridCell.Tab.2.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725564" />
     <state width="1284" height="449" key="GridCell.Tab.3.bottom" timestamp="1595171566064">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
