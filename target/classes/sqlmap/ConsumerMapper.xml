@@ -18,6 +18,16 @@
             id = #{id};
     </select>
 
+    <!--根据username获取顾客的新秀-->
+    <select id="selectConsumerByUserName" resultType="Consumer">
+        SELECT
+            *
+        FROM
+            consumer
+        WHERE
+            username = #{username};
+    </select>
+
     <!--根据顾客名和密码查询顾客信息-->
     <select id="selectConsumerByUserNameAndPassword" resultType="Consumer">
         SELECT

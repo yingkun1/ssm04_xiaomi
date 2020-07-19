@@ -45,4 +45,17 @@ public class ConsumerControllerTest {
         }
 
     }
+
+    @Test
+    public void testRegister(){
+        MvcResult mvcResult = null;
+        try {
+            mvcResult = mockMvc.perform(MockMvcRequestBuilders.post("/consumer/register").param("username", "张飞").param("password", "zhangfei9257").param("email", "zhangfei@qq.com").param("phone", "17373960307")).andReturn();
+            String contentAsString = mvcResult.getResponse().getContentAsString();
+            System.out.println("content:"+contentAsString);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
 }

@@ -33,33 +33,40 @@
         <br />
         <p>小米公司版权所有-京ICP备10046444-<img src="images/ghs.png" alt="">京公网安备11010802020134号-京ICP证110507号</p>
     </footer>
-    <script src="js/jquery/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/jquery/jquery-3.4.1.js"></script>
     <script>
-        $(function() {
-            // 点击注册按钮时，发送请求
-            $("#register-btn").click(function() {
-                // 发送Ajax请求
+        $(function () {
+            $("#register-btn").click(function () {
+                var username = $("#username").val();
+                var password = $("#password").val();
+                console.log("点击了注册按钮!用户名:"+username+",密码:"+password);
                 $.ajax({
-                    url: "/xiaomi/consumer/register",
-                    method: "POST",
-                    data: {
-                        "username": $("#username").val(),
-                        "password": $("#password").val()
+                    url:"/consumer/register",
+                    data:{
+                        username:username,
+                        password:password,
                     },
-                    success: function(response) {
-                        if(response.errorCode === "100") {
-                            alert("Congratulations，账号注册成功，请登录吧");
-                            window.location = "/xiaomi/login.jsp";
+                    dataType: "json",
+                    type:"POST",
+                    success:function (data) {
+                        console.log("请求发送成功");
+                        console.log(data);
+                        if(data.data === false){
+                            console.log("注册失败");
+                            $("#errorMsg").text("账户名已经使用了,请重新选择账户名").css({"color":"red"})
                         }else{
-                            $("#errorMsg").text(response.objectMap.msg).css({"color": "red"});
+                            alert("注册成功");
+                            window.location = "login.jsp";
                         }
                     },
-                    error: function() {
-                        $("#errorMsg").text("请求迷路了，小二正在赶来的路上，请稍后再试..").css({"color": "red"});
+                    error:function () {
+                        console.log("请求发送失败");
+
                     }
-                });
-            });
-        });
+                })
+            })
+        })
     </script>
+
 </body>
 </html>

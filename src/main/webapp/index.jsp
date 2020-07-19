@@ -1,7 +1,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
+%>
 <!DOCTYPE html>
 <html>
 <head>
+    <base href="<%=basePath%>" />
     <meta charset="UTF-8">
     <title>小米商城</title>
     <link rel="stylesheet" href="css/index.css">
@@ -655,105 +660,163 @@
         </div>
     </div>
 </footer>
-<script src="js/jquery/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="js/jquery/jquery-3.4.1.js"></script>
 <script>
-    $(function() {
-       // 直接发送请求获取数据
-       $.ajax({
-           url: "/xiaomi/initIndex",
-           method: "GET",
-           success: function(response) {
-               console.log(response);
-               // 获取到后台返回的一级商品类型数据
-               let $goodsTypes = response.objectMap.goodsTypeList;
-               // 遍历商品类型
-               for(let i = 0; i < $goodsTypes.length; i++) {
-                   // 创建对应的标签
-                   let $li = $("<li>").attr("id", $goodsTypes[i].id).text($goodsTypes[i].name);
-                   let $span = $("<span>").append($("<em>").addClass("glyphicon glyphicon-menu-right"));
-                   $li.append($span);
-                   // 将数据加载到网页中ul菜单中
-                   $("#bannel-type > ul").append($li);
-               }
-               // 加载楼层商品
-               // 获取小米手机商品
-               let $xiaomiphonelist = response.objectMap.goodsMap["10001"];
-               loadGoods($xiaomiphonelist, $("#xiaomiphone"));
-               // 获取红米手机商品
-               let $hongmiphonelist = response.objectMap.goodsMap["10002"];
-               loadGoods($hongmiphonelist, $("#hongmiphone"));
-               // 获取游戏手机商品
-               let $gamephonelist = response.objectMap.goodsMap["10003"];
-               loadGoods($gamephonelist, $("#gamephone"));
-               // 获取电视商品
-               let $tvlist = response.objectMap.goodsMap["20002"];
-               loadGoods($tvlist, $("#tv"));
+    $(function () {
+        $.ajax({
+            url:"initIndex",
+            data:null,
+            type:"GET",
+            dataType:"json",
+            success:function (data) {
+                console.log(data);
+                let goodsTypeList = data.data.goodsTypeList;
+                for(let i =0;i<goodsTypeList.length;i++){
+                    console.log(goodsTypeList[i].name);
+                    let li = $("<li>").text(goodsTypeList[i].name);
+                    let span = $("<span>").append($("<em>").addClass("glyphicon glyphicon-menu-right"));
+                    $("#bannel-type > ul").append(li);
+                }
+                //加载楼层商品
+                let xiaomigoodsList = data.data.goodsMap["10001"];
+                let hongmigoodsList = data.data.goodsMap["10002"];
+                let gamegoodsList = data.data.goodsMap["10003"];
+                let tvgoodsList = data.data.goodsMap["20002"];
+                loadGoods(xiaomigoodsList,$("#xiaomiphone"));
+                loadGoods(hongmigoodsList,$("#hongmiphone"));
+                loadGoods(gamegoodsList,$("#gamephone"));
+                loadGoods(tvgoodsList,$("#tv"));
 
-           },
-           error: function() {
-               console.log("请求迷路了....")
-           }
-       });
-
-       function loadGoods(goodslist, container) {
-           // 遍历商品列表，将商品添加到页面汇总
-           for(let i = 0; i < goodslist.length; i++) {
-               let $boxitem = $("<div>").addClass("goodsboxitem");
-               let $a = $("<a>").attr("href", "/xiaomi/detail.jsp?gid=" + goodslist[i].id);
-               let $content = $("<div>").addClass("content");
-
-               let $thumb = $("<div>").addClass("thumb");
-               let $img = $("<img>").attr("src", goodslist[i].goodsImages[0].path);
-               $thumb.append($img);
-
-               let $title = $("<div>").addClass("title").text(goodslist[i].name);
-               let $desc = $("<div>").addClass("desc").text(goodslist[i].remark.substring(10));
-
-               let $price = $("<div>").addClass("price");
-               let $span = $("<span>").text(goodslist[i].price + "元");
-               let $del = $("<del>").text(goodslist[i].price + "元");
-               $price.append($span).append($del);
-
-               $content.append($thumb).append($title).append($desc).append($price);
-               $a.append($content);
-               $boxitem.append($a);
-
-               container.append($boxitem);
-           }
-       }
-        $("#search button").click(function() {
-            // 获取搜索关键词
-            let $word = $("#search input").val();
-            console.log($word);
-            // 跳转页面
-            window.location = "/xiaomi/goodslist.jsp?wd=" + $word;
-            // 按钮存在在表单中的，所以点击按钮的时候需要组织浏览器默认行为
-            window.event.returnValue = false;
+            }
         });
-       /*
-       通常情况下， 由JS脚本加载的DOM元素（html标签）通过普通的事件处理方式，是添加不了事件操作的。
-            JS脚本加载的元素：未来元素，普通事件操作会失效。
-            事件委托的方式可以给未来元素增加事件操作
-        */
-       $("#bannel-type > ul").on("click", "li", function() {
-           // 获取商品类型编号
-           let $goodsTypeId = $(this).prop("id");
-           // 页面跳转
-           window.location = "/xiaomi/goodslist2.jsp?level=1&goodsTypeId="+$goodsTypeId;
+        function loadGoods(goodsMapElement,container) {
+            for(let i =0;i<goodsMapElement.length;i++){
+                let boxitem = $("<div>").addClass("goodsboxitem");
+                let a = $("<a>").attr("href","#");
+                let content = $("<div>").addClass("content");
+                let thumb = $("<div>").addClass("thumb");
+                let img = $("<img>").attr("src",goodsMapElement[i].goodsImagesList[0].path);
+                thumb.append(img);
+                let title = $("<div>").addClass("title").text(goodsMapElement[i].name);
+                let desc = $("<div>").addClass("desc").text(goodsMapElement[i].remark.substring(10));
+                let price = $("<div>").addClass("price");
+                let span = $("<span>").text(goodsMapElement[i].price+"元");
+                let del = $("<del>").text(goodsMapElement[i].price+"元");
+                price.append(span).append(del);
+                content.append(thumb).append(title).append(desc).append(price);
+                a.append(content);
+                boxitem.append(a);
+                container.append(boxitem);
+            }
 
-           /*// 发送ajax请求
-           $.ajax({
-               url: "/xiaomi/1/" + $goodsTypeId,
-               method: "GET",
-               success:function(response) {
-                   console.log(response);
-               },
-               error:function() {
-                   console.log("请求迷路了...");
-               }
-           });*/
-       })
-    });
+        }
+        $("#search button").click(function () {
+            console.log("点击了搜索按钮");
+            let keywords = $("#search input").val();
+            console.log("keywords:"+keywords);
+            window.location = "goodslist.jsp?keywords:"+keywords
+            window.event.returnValue = false;
+        })
+    })
 </script>
+<%--<script>--%>
+<%--    $(function() {--%>
+<%--       // 直接发送请求获取数据--%>
+<%--       $.ajax({--%>
+<%--           url: "/xiaomi/initIndex",--%>
+<%--           method: "GET",--%>
+<%--           success: function(response) {--%>
+<%--               console.log(response);--%>
+<%--               // 获取到后台返回的一级商品类型数据--%>
+<%--               let $goodsTypes = response.objectMap.goodsTypeList;--%>
+<%--               // 遍历商品类型--%>
+<%--               for(let i = 0; i < $goodsTypes.length; i++) {--%>
+<%--                   // 创建对应的标签--%>
+<%--                   let $li = $("<li>").attr("id", $goodsTypes[i].id).text($goodsTypes[i].name);--%>
+<%--                   let $span = $("<span>").append($("<em>").addClass("glyphicon glyphicon-menu-right"));--%>
+<%--                   $li.append($span);--%>
+<%--                   // 将数据加载到网页中ul菜单中--%>
+<%--                   $("#bannel-type > ul").append($li);--%>
+<%--               }--%>
+<%--               // 加载楼层商品--%>
+<%--               // 获取小米手机商品--%>
+<%--               let $xiaomiphonelist = response.objectMap.goodsMap["10001"];--%>
+<%--               loadGoods($xiaomiphonelist, $("#xiaomiphone"));--%>
+<%--               // 获取红米手机商品--%>
+<%--               let $hongmiphonelist = response.objectMap.goodsMap["10002"];--%>
+<%--               loadGoods($hongmiphonelist, $("#hongmiphone"));--%>
+<%--               // 获取游戏手机商品--%>
+<%--               let $gamephonelist = response.objectMap.goodsMap["10003"];--%>
+<%--               loadGoods($gamephonelist, $("#gamephone"));--%>
+<%--               // 获取电视商品--%>
+<%--               let $tvlist = response.objectMap.goodsMap["20002"];--%>
+<%--               loadGoods($tvlist, $("#tv"));--%>
+
+<%--           },--%>
+<%--           error: function() {--%>
+<%--               console.log("请求迷路了....")--%>
+<%--           }--%>
+<%--       });--%>
+
+<%--       function loadGoods(goodslist, container) {--%>
+<%--           // 遍历商品列表，将商品添加到页面汇总--%>
+<%--           for(let i = 0; i < goodslist.length; i++) {--%>
+<%--               let $boxitem = $("<div>").addClass("goodsboxitem");--%>
+<%--               let $a = $("<a>").attr("href", "/xiaomi/detail.jsp?gid=" + goodslist[i].id);--%>
+<%--               let $content = $("<div>").addClass("content");--%>
+
+<%--               let $thumb = $("<div>").addClass("thumb");--%>
+<%--               let $img = $("<img>").attr("src", goodslist[i].goodsImages[0].path);--%>
+<%--               $thumb.append($img);--%>
+
+<%--               let $title = $("<div>").addClass("title").text(goodslist[i].name);--%>
+<%--               let $desc = $("<div>").addClass("desc").text(goodslist[i].remark.substring(10));--%>
+
+<%--               let $price = $("<div>").addClass("price");--%>
+<%--               let $span = $("<span>").text(goodslist[i].price + "元");--%>
+<%--               let $del = $("<del>").text(goodslist[i].price + "元");--%>
+<%--               $price.append($span).append($del);--%>
+
+<%--               $content.append($thumb).append($title).append($desc).append($price);--%>
+<%--               $a.append($content);--%>
+<%--               $boxitem.append($a);--%>
+
+<%--               container.append($boxitem);--%>
+<%--           }--%>
+<%--       }--%>
+<%--        $("#search button").click(function() {--%>
+<%--            // 获取搜索关键词--%>
+<%--            let $word = $("#search input").val();--%>
+<%--            console.log($word);--%>
+<%--            // 跳转页面--%>
+<%--            window.location = "/xiaomi/goodslist.jsp?wd=" + $word;--%>
+<%--            // 按钮存在在表单中的，所以点击按钮的时候需要组织浏览器默认行为--%>
+<%--            window.event.returnValue = false;--%>
+<%--        });--%>
+<%--       /*--%>
+<%--       通常情况下， 由JS脚本加载的DOM元素（html标签）通过普通的事件处理方式，是添加不了事件操作的。--%>
+<%--            JS脚本加载的元素：未来元素，普通事件操作会失效。--%>
+<%--            事件委托的方式可以给未来元素增加事件操作--%>
+<%--        */--%>
+<%--       $("#bannel-type > ul").on("click", "li", function() {--%>
+<%--           // 获取商品类型编号--%>
+<%--           let $goodsTypeId = $(this).prop("id");--%>
+<%--           // 页面跳转--%>
+<%--           window.location = "/xiaomi/goodslist2.jsp?level=1&goodsTypeId="+$goodsTypeId;--%>
+
+<%--           /*// 发送ajax请求--%>
+<%--           $.ajax({--%>
+<%--               url: "/xiaomi/1/" + $goodsTypeId,--%>
+<%--               method: "GET",--%>
+<%--               success:function(response) {--%>
+<%--                   console.log(response);--%>
+<%--               },--%>
+<%--               error:function() {--%>
+<%--                   console.log("请求迷路了...");--%>
+<%--               }--%>
+<%--           });*/--%>
+<%--       })--%>
+<%--    });--%>
+<%--</script>--%>
 </body>
 </html>

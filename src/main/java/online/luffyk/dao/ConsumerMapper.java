@@ -20,6 +20,13 @@ public interface ConsumerMapper {
     Consumer selectConsumerById(Integer id);
 
     /**
+     *
+     * @param username 用户名
+     * @return 根据用户名返回用户的信息
+     */
+    Consumer selectConsumerByUserName(String username);
+
+    /**
      * @param consumer 用户的信息
      * @return 返回对应的顾客列表
      */

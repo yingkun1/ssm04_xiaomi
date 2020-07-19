@@ -4,4 +4,6 @@ import online.luffyk.domain.Consumer;
 
 public interface ConsumerService {
    Boolean SelectConsumerByUserNameAndPasswordService(Consumer consumer);
+
+   Integer insertOneConsumerService(Consumer consumer);
 }

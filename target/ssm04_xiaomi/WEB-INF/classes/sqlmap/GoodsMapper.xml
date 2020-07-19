@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="online.luffyk.dao.GoodsMapper">
+    <resultMap id="goodsImagesResultMap" type="online.luffyk.domain.GoodsImages">
+        <id property="id" column="gId"/>
+        <result property="path" column="path"/>
+        <result property="title" column="title"/>
+        <result property="alt" column="alt"/>
+        <result property="goodsId" column="goods_id"/>
+    </resultMap>
+    <resultMap id="goodsResultMap" type="Goods">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="price" column="price"/>
+        <result property="remark" column="remark"/>
+        <result property="stock" column="stock"/>
+        <result property="goodsTypeId" column="goods_type_id"/>
+        <collection property="goodsImagesList" resultMap="goodsImagesResultMap"/>
+    </resultMap>
+    <select id="selectGoodsByGoodsType" resultMap="goodsResultMap">
+        SELECT
+            gd.id,
+            gd.`name`,
+            gd.price,
+            gd.remark,
+            gd.stock,
+            gd.goods_type_id,
+            gi.path,
+            gi.id as gId,
+            gi.title,
+            gi.alt,
+            gi.goods_id
+        FROM
+            goods gd
+            LEFT JOIN goods_images gi ON gd.id = gi.goods_id where goods_type_id = #{id}
+    </select>
+
+    <select id="searchGoodsByName" resultMap="goodsResultMap">
+        SELECT
+            gd.id,
+            gd.`name`,
+            gd.price,
+            gd.remark,
+            gd.stock,
+            gd.goods_type_id,
+            gi.path,
+            gi.id,
+            gi.title,
+            gi.alt,
+            gi.goods_id
+        FROM
+            goods gd
+            LEFT JOIN goods_images gi ON gd.id = gi.goods_id
+        WHERE
+            gd.`name` LIKE CONCAT( "%", #{name}, "%" )
+    </select>
+</mapper>

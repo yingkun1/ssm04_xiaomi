@@ -38,6 +38,12 @@ public class ConsumerMapperTest {
     }
 
     @Test
+    public void testSelectConsumerByUserName(){
+        Consumer consumer = consumerMapper.selectConsumerByUserName("应昆123");
+        System.out.println(consumer);
+    }
+
+    @Test
     public void testSelectConsumerByUserNameAndPassword(){
         Consumer consumer1 = new Consumer(null, "王五", "wangwu9257",null,null);
         List<Consumer> consumers = consumerMapper.selectConsumerByUserNameAndPassword(consumer1);

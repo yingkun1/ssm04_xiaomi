@@ -27,4 +27,16 @@ public class ConsumerController {
             return new Result("登录失败", false,400);
         }
     }
+
+    @ResponseBody
+    @RequestMapping(value = "register",method = RequestMethod.POST)
+    public Object register(Consumer consumer){
+        System.out.println("consumer:"+consumer);
+        Integer count = consumerService.insertOneConsumerService(consumer);
+        if(count == 1){
+            return new Result("注册成功",true,200);
+        }else{
+            return new Result("注册失败",false,400);
+        }
+    }
 }
