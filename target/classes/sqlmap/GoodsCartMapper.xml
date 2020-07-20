@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="online.luffyk.dao.GoodsCartMapper">
+    <select id="selectGoodsCartByConsumerIdAndGoodsId" resultType="GoodsCart">
+        SELECT
+            *
+        FROM
+            goods_cart
+        WHERE
+            goods_id = #{goods.id}
+            AND consumer_id =#{consumer.id}
+    </select>
+
+    <insert id="insertGoodsToGoodsCart">
+        INSERT INTO goods_cart ( goods_id,buy_count,add_date, subtotal, consumer_id )
+        VALUES
+            ( #{goodsId}, #{buyCount},#{addDate}, #{subtotal}, #{consumerId} );
+    </insert>
+
+    <update id="updateGoodsInGoodsCart">
+        UPDATE goods_cart
+        <set>
+            <if test="buyCount!=null">
+                buy_count = #{buyCount},
+            </if>
+            <if test="addDate!=null and addDate!=''">
+                add_date = #{addDate},
+            </if>
+            <if test="subtotal!=null">
+                subtotal = #{subtotal}
+            </if>
+        </set>
+        WHERE
+            goods_id  = #{goodsId} and consumer_id=#{consumerId}
+    </update>
+    
+    <delete id="removeGoodsInGoods">
+        DELETE
+        FROM
+            goods_cart
+        WHERE
+            goods_id = #{goodsId}
+            AND consumer_id = #{consumerId};
+    </delete>
+
+
+    <resultMap id="goodsImagesMap" type="GoodsImages">
+        <id property="id" column="gId"/>
+        <result property="title" column="title"/>
+        <result property="path" column="path"/>
+        <result property="alt" column="alt"/>
+    </resultMap>
+    <resultMap id="GoodsCartMap" type="GoodsCart">
+        <id property="id" column="id"/>
+        <result property="buyCount" column="buy_count"/>
+        <result property="addDate" column="add_count"/>
+        <result property="subtotal" column="subtotal"/>
+        <collection property="goodsImagesList" resultMap="goodsImagesMap"/>
+    </resultMap>
+
+    <select id="showAllGoodsCartByConsumer" resultMap="GoodsCartMap">
+        SELECT
+            gc.id,
+            gc.buy_count,
+            gc.add_date,
+            gc.subtotal,
+            gi.title,
+            gi.path,
+            gi.id as gId,
+            gi.alt
+        FROM
+            goods_cart gc
+            LEFT JOIN goods_images gi ON gc.goods_id = gi.goods_id
+    </select>
+</mapper>

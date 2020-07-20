@@ -77,7 +77,7 @@
                     success:function (data) {
                         console.log("请求发送成功");
                         console.log(data);
-                        if(data.data === false){
+                        if(data.code === 400){
                             console.log("登录失败");
                             $("#error-username").text("账户或者密码错误,请重新登录").css({"color":"red"})
                         }else{

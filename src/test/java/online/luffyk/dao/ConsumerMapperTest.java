@@ -46,10 +46,7 @@ public class ConsumerMapperTest {
     @Test
     public void testSelectConsumerByUserNameAndPassword(){
         Consumer consumer1 = new Consumer(null, "王五", "wangwu9257",null,null);
-        List<Consumer> consumers = consumerMapper.selectConsumerByUserNameAndPassword(consumer1);
-        System.out.println(consumers.size());
-        for(Consumer consumer:consumers){
-            System.out.println(consumer);
-        }
+        Consumer consumer2 = consumerMapper.selectConsumerByUserNameAndPassword(consumer1);
+        System.out.println(consumer2);
     }
 }

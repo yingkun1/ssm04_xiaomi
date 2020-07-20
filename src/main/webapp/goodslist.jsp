@@ -25,7 +25,7 @@
         </div>
         <div class="ntright">
             <a href="#">登录</a> | <a href="#">注册</a> | <a href="#">消息通知</a>
-            <div><a href="/xiaomi/shopcart.jsp">购物车 (0)</a></div>
+            <div><a href="/shopcart.jsp">购物车 (0)</a></div>
         </div>
     </div>
 </div>

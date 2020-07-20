@@ -1,3 +1,4 @@
+<%@ page import="online.luffyk.domain.Consumer" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String path = request.getContextPath();
@@ -24,7 +25,7 @@
                 href="#">协议规则</a> | <a href="#">下载app</a> | <a href="#">Select Location</a>
         </div>
         <div class="ntright">
-            <a href="#">登录</a> | <a href="#">注册</a> | <a href="#">消息通知</a>  <div><a href="/xiaomi/shopcart.jsp">购物车 (0)</a></div>
+            <a href="#">登录</a> | <a href="#">注册</a> | <a href="#">消息通知</a>  <div><a href="/shopcart.jsp">购物车 (0)</a></div>
         </div>
     </div>
 </div>
@@ -65,7 +66,7 @@
     </div>
     <!-- 1230 x X -->
     <div id="detail">
-        <input type="hidden" name="goodsId" id="goodsId">
+        <input type="hidden" name="goodsId" id="goodsId" />
         <!-- 图片轮播 560x560 -->
         <div id="dtleft">
             <img src="images/detail.jpg" alt="">
@@ -221,6 +222,7 @@
             type:"GET",
             success:function (data) {
                 console.log(data);
+                $("#goodsId").val(data.data.goods.id);
                 $("#goods-name").text(data.data.goods.name);
                 $("#goods-desc").text(data.data.goods.remark);
                 $("#goods-price span").text(data.data.goods.price+"元");
@@ -228,9 +230,27 @@
                 $("#goods-subtotal").text("总计:"+data.data.goods.price+"元");
                 $("#dtleft > img").attr("src",data.data.goods.goodsImagesList[0].path);
             }
+        });
+
+        $("#addCart").click(function () {
+            let goodsId = $("#goodsId").val();
+            console.log("点击了加入购物车按钮,id为："+goodsId);
+            $.ajax({
+                url:"/goodsCart/add/"+goodsId,
+                type:"GET",
+                data: null,
+                dataType: "json",
+                success:function (data) {
+                    console.log(data);
+                }
+            })
         })
     })
 </script>
+<%
+    Consumer consumer = (Consumer) session.getAttribute("consumer");
+    System.out.println("consumer============:"+consumer);
+%>
 <%--<script src="js/jquery/jquery-3.4.1.js"></script>--%>
 <%--<script>--%>
 <%--    $(function() {--%>

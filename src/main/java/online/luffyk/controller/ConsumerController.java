@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpSession;
+import java.util.HashMap;
 
 @Controller
 @RequestMapping("consumer")
@@ -18,13 +20,17 @@ public class ConsumerController {
 
     @ResponseBody
     @RequestMapping(value = "login/auth",method = RequestMethod.POST)
-    public Object login(Consumer consumer){
+    public Object login(Consumer consumer, HttpSession session){
         System.out.println("consumer:"+consumer);
-        Boolean flag = consumerService.SelectConsumerByUserNameAndPasswordService(consumer);
-        if(flag){
-            return new Result("登录成功", true,200);
+        Consumer consumer1 = consumerService.SelectConsumerByUserNameAndPasswordService(consumer);
+        if(consumer1!=null){
+            HashMap<String, Object> hashMap = new HashMap<>();
+            hashMap.put("loginConsumer",consumer1.getUsername());
+            //将登录成功的用户信息存储到session中
+            session.setAttribute("consumer",consumer1);
+            return new Result("登录成功", hashMap,200);
         }else{
-            return new Result("登录失败", false,400);
+            return new Result("登录失败", null,400);
         }
     }
 

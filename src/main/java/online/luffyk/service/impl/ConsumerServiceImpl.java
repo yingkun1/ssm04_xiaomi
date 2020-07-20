@@ -15,14 +15,8 @@ public class ConsumerServiceImpl implements ConsumerService {
 
 
     @Override
-    public Boolean SelectConsumerByUserNameAndPasswordService(Consumer consumer) {
-        List<Consumer> consumers = consumerMapper.selectConsumerByUserNameAndPassword(consumer);
-        System.out.println("consumers:"+consumers);
-        if(consumers!=null && consumers.size()==1){
-            return true;
-        }else{
-            return false;
-        }
+    public Consumer SelectConsumerByUserNameAndPasswordService(Consumer consumer) {
+       return consumerMapper.selectConsumerByUserNameAndPassword(consumer);
     }
 
     @Override

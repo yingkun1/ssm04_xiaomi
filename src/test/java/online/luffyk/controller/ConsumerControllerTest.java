@@ -34,12 +34,9 @@ public class ConsumerControllerTest {
     @Test
     public void testLogin(){
         try {
-//            ResultActions perform = mockMvc.perform(MockMvcRequestBuilders.post("/consumer/login/auth").param("username", "应昆").param("password", "yingkun9257"));
-            ResultActions perform = mockMvc.perform(MockMvcRequestBuilders.post("/consumer/login/auth").param("username", "应昆").param("password", "yingkun9257"));
-            perform.andDo(MockMvcResultHandlers.print());
-//            MvcResult mvcResult = perform.andReturn();
-//            String contentAsString = mvcResult.getResponse().getContentAsString();
-//            System.out.println("context:"+contentAsString);
+            MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.post("/consumer/login/auth").param("username", "应昆").param("password", "yingkun9257")).andReturn();
+            String contentAsString = mvcResult.getResponse().getContentAsString();
+            System.out.println("content:"+contentAsString);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -58,4 +55,5 @@ public class ConsumerControllerTest {
         }
 
     }
+
 }

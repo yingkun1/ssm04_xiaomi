@@ -7,303 +7,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b63239ab-44c6-417c-85db-a2ef985736ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/controller/GoodsControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/controller/shopCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/GoodsCartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/domain/GoodsCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/GoodsCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/GoodsCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/GoodsCartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shopcart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/controller/ShopCartControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/GoodsCartMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/GoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/GoodsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/GoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/ConsumerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/dao/ConsumerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/ConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/ConsumerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/ConsumerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/detail.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/goodslist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/goodslist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/goodslist2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/goodslist2.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/GoodsMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/GoodsMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/controller/ConsumerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/controller/UtilsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/dao/ConsumerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/dao/GoodsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/dao/GoodsTypeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/domain/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/domain/Goods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/domain/GoodsImages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/domain/GoodsType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/ConsumerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/GoodsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/GoodsTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/impl/ConsumerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/impl/GoodsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/impl/GoodsTypeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/util/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springmvc-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sqlmap/ConsumerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sqlmap/GoodsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sqlmap/GoodsTypeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/controller/ConsumerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/controller/UtilsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/dao/ConsumerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/dao/GoodsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/dao/GoodsTypeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/domain/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/domain/Goods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/domain/GoodsImages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/domain/GoodsType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/ConsumerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/GoodsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/GoodsTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/impl/ConsumerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/impl/GoodsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/impl/GoodsTypeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/util/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/springmvc-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/sqlmap/ConsumerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/sqlmap/GoodsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/sqlmap/GoodsTypeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/jsp/hello.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/aspectjweaver-1.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/c3p0-0.9.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/classmate-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/fastjson-1.2.59.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/hibernate-validator-5.4.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/jsp-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/jsqlparser-0.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/mybatis-3.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/mybatis-spring-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/mysql-connector-java-5.1.49.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/pagehelper-5.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-aop-4.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-aspects-4.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-beans-4.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-context-4.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-core-4.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-expression-4.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-jdbc-4.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-test-4.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-tx-4.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-web-4.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/spring-webmvc-4.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/css/detail.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/css/goodslist.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/css/order.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/css/orderhistory.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/css/reigster.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/css/shopcart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/goodslist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/goodslist2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ad1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ad2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ad3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ad4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ad5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ad6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/adv1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/adv2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/adv3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/bn1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/bn2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/bn3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/bn4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/bn5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/detail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/dp1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/dp2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/friendlink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/gg1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/gg2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/gg3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/gg4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/gg5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/gg6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/gg7.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ghs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/10_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/10_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/11_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/11_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/12_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/12_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/13_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/13_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/14_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/14_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/15_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/15_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/16_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/16_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/17_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/17_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/18_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/18_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/19_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/19_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/1_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/1_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/20_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/20_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/21_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/21_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/22_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/22_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/23_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/23_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/24_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/24_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/25_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/25_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/26_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/26_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/27_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/27_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/28_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/28_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/2_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/2_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/3_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/3_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/4_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/4_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/5_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/5_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/6_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/6_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/8_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/8_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/9_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/9_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/9_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/goodsImage/9_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/jd01.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/jd02.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/loginbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/loginlogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/order1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/orderres.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/pj1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/pj2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/search_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/search_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/sg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/sg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/sg3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/sg4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/sgx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/shopcart1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/sj01.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/sp1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/sp2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/sp3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/sp4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ss01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ss02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ss03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ss04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/ss05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/zb1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/zb2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/zn1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/images/zn2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/js/jquery/jquery-3.4.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/10_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/10_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/11_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/11_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/12_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/12_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/13_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/13_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/14_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/14_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/15_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/15_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/16_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/16_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/17_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/17_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/18_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/18_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/19_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/19_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/1_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/1_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/20_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/20_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/21_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/21_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/22_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/22_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/23_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/23_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/24_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/24_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/25_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/25_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/26_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/26_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/27_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/27_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/28_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/28_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/2_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/2_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/3_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/3_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/4_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/4_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/5_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/5_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/6_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/6_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/8_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/8_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/9_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/9_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/9_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/static/images/goodsImage/9_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/controller/ConsumerControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/controller/IndexControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/controller/UtilsControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/dao/ConsumerMapperTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/dao/GoodsMapperTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/dao/GoodsTypeMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/online/luffyk/controller/ConsumerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/controller/ConsumerControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/ConsumerMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/online/luffyk/dao/ConsumerMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/controller/ConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/online/luffyk/controller/ConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/dao/ConsumerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/online/luffyk/dao/ConsumerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/ConsumerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/online/luffyk/service/ConsumerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/online/luffyk/service/impl/ConsumerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/online/luffyk/service/impl/ConsumerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/controller/ConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/controller/ConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/dao/ConsumerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/dao/ConsumerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/ConsumerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/ConsumerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/impl/ConsumerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm04_xiaomi/WEB-INF/classes/online/luffyk/service/impl/ConsumerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm04_xiaomi/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm04_xiaomi/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm04_xiaomi/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/controller/ConsumerControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/online/luffyk/controller/ConsumerControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/online/luffyk/dao/ConsumerMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/online/luffyk/dao/ConsumerMapperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,6 +102,9 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="online.luffyk.dao" />
@@ -373,12 +112,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.511">
-    <configuration name="GoodsControllerTest.testGetGoodsById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsumerControllerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm04_xiaomi" />
       <extension name="coverage">
         <pattern>
@@ -387,14 +123,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="online.luffyk.controller" />
-      <option name="MAIN_CLASS_NAME" value="online.luffyk.controller.GoodsControllerTest" />
-      <option name="METHOD_NAME" value="testGetGoodsById" />
+      <option name="MAIN_CLASS_NAME" value="online.luffyk.controller.ConsumerControllerTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoodsMapperTest.testSelectGoodsById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsumerControllerTest.testRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm04_xiaomi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="online.luffyk.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="online.luffyk.controller" />
+      <option name="MAIN_CLASS_NAME" value="online.luffyk.controller.ConsumerControllerTest" />
+      <option name="METHOD_NAME" value="testRegister" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsCartMapperTest.testUpdateGoodsInGoodsCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm04_xiaomi" />
       <extension name="coverage">
         <pattern>
@@ -403,30 +155,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="online.luffyk.dao" />
-      <option name="MAIN_CLASS_NAME" value="online.luffyk.dao.GoodsMapperTest" />
-      <option name="METHOD_NAME" value="testSelectGoodsById" />
+      <option name="MAIN_CLASS_NAME" value="online.luffyk.dao.GoodsCartMapperTest" />
+      <option name="METHOD_NAME" value="testUpdateGoodsInGoodsCart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoodsTypeMapperTest.testSelectGoodsTypeById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm04_xiaomi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="online.luffyk.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="online.luffyk.dao" />
-      <option name="MAIN_CLASS_NAME" value="online.luffyk.dao.GoodsTypeMapperTest" />
-      <option name="METHOD_NAME" value="testSelectGoodsTypeById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UtilsControllerTest.testGetGoodsByGoodsType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopCartControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm04_xiaomi" />
       <extension name="coverage">
         <pattern>
@@ -435,14 +171,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="online.luffyk.controller" />
-      <option name="MAIN_CLASS_NAME" value="online.luffyk.controller.UtilsControllerTest" />
-      <option name="METHOD_NAME" value="testGetGoodsByGoodsType" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="online.luffyk.controller.ShopCartControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilsControllerTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopCartControllerTest.testAddGoodsToGoodsCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm04_xiaomi" />
       <extension name="coverage">
         <pattern>
@@ -451,8 +186,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="online.luffyk.controller" />
-      <option name="MAIN_CLASS_NAME" value="online.luffyk.controller.UtilsControllerTest" />
-      <option name="METHOD_NAME" value="testSearch" />
+      <option name="MAIN_CLASS_NAME" value="online.luffyk.controller.ShopCartControllerTest" />
+      <option name="METHOD_NAME" value="testAddGoodsToGoodsCart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -533,20 +268,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UtilsControllerTest.testSearch" />
-      <item itemvalue="JUnit.GoodsTypeMapperTest.testSelectGoodsTypeById" />
-      <item itemvalue="JUnit.UtilsControllerTest.testGetGoodsByGoodsType" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.511" />
-      <item itemvalue="JUnit.GoodsMapperTest.testSelectGoodsById" />
-      <item itemvalue="JUnit.GoodsControllerTest.testGetGoodsById" />
+      <item itemvalue="JUnit.ConsumerControllerTest.testRegister" />
+      <item itemvalue="JUnit.ConsumerControllerTest.test" />
+      <item itemvalue="JUnit.ShopCartControllerTest.testAddGoodsToGoodsCart" />
+      <item itemvalue="JUnit.ShopCartControllerTest" />
+      <item itemvalue="JUnit.GoodsCartMapperTest.testUpdateGoodsInGoodsCart" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GoodsMapperTest.testSelectGoodsById" />
-        <item itemvalue="JUnit.GoodsControllerTest.testGetGoodsById" />
-        <item itemvalue="JUnit.UtilsControllerTest.testGetGoodsByGoodsType" />
-        <item itemvalue="JUnit.UtilsControllerTest.testSearch" />
-        <item itemvalue="JUnit.GoodsTypeMapperTest.testSelectGoodsTypeById" />
+        <item itemvalue="JUnit.GoodsCartMapperTest.testUpdateGoodsInGoodsCart" />
+        <item itemvalue="JUnit.ShopCartControllerTest.testAddGoodsToGoodsCart" />
+        <item itemvalue="JUnit.ConsumerControllerTest.test" />
+        <item itemvalue="JUnit.ConsumerControllerTest.testRegister" />
+        <item itemvalue="JUnit.ShopCartControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -587,6 +322,7 @@
       <workItem from="1595047420381" duration="20113000" />
       <workItem from="1595147456049" duration="12963000" />
       <workItem from="1595173099052" duration="6114000" />
+      <workItem from="1595226206605" duration="17422000" />
     </task>
     <servers />
   </component>
@@ -598,10 +334,10 @@
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
     <state x="327" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595061985455" />
-    <state x="675" y="270" key="#com.intellij.ide.util.MemberChooser" timestamp="1595093177736">
+    <state x="675" y="270" key="#com.intellij.ide.util.MemberChooser" timestamp="1595232404950">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state x="675" y="270" key="#com.intellij.ide.util.MemberChooser/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595093177736" />
+    <state x="675" y="270" key="#com.intellij.ide.util.MemberChooser/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595232404950" />
     <state x="550" y="536" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1595004539236">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
@@ -614,85 +350,96 @@
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
     <state x="600" y="301" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595060436382" />
-    <state width="1316" height="452" key="GridCell.Tab.0.bottom" timestamp="1595181725560">
+    <state width="1316" height="451" key="GridCell.Tab.0.bottom" timestamp="1595263207140">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1316" height="452" key="GridCell.Tab.0.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725560" />
-    <state width="1316" height="452" key="GridCell.Tab.0.center" timestamp="1595181725559">
+    <state width="1316" height="451" key="GridCell.Tab.0.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595263207140" />
+    <state width="1316" height="451" key="GridCell.Tab.0.center" timestamp="1595263207139">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1316" height="452" key="GridCell.Tab.0.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725559" />
-    <state width="1316" height="452" key="GridCell.Tab.0.left" timestamp="1595181725558">
+    <state width="1316" height="451" key="GridCell.Tab.0.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595263207139" />
+    <state width="1316" height="451" key="GridCell.Tab.0.left" timestamp="1595263207137">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1316" height="452" key="GridCell.Tab.0.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725558" />
-    <state width="1316" height="452" key="GridCell.Tab.0.right" timestamp="1595181725559">
+    <state width="1316" height="451" key="GridCell.Tab.0.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595263207137" />
+    <state width="1316" height="451" key="GridCell.Tab.0.right" timestamp="1595263207139">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1316" height="452" key="GridCell.Tab.0.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725559" />
-    <state width="1316" height="452" key="GridCell.Tab.1.bottom" timestamp="1595181725562">
+    <state width="1316" height="451" key="GridCell.Tab.0.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595263207139" />
+    <state width="1316" height="451" key="GridCell.Tab.1.bottom" timestamp="1595263207141">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1316" height="452" key="GridCell.Tab.1.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725562" />
-    <state width="1316" height="452" key="GridCell.Tab.1.center" timestamp="1595181725562">
+    <state width="1316" height="451" key="GridCell.Tab.1.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595263207141" />
+    <state width="1316" height="451" key="GridCell.Tab.1.center" timestamp="1595263207140">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1316" height="452" key="GridCell.Tab.1.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725562" />
-    <state width="1316" height="452" key="GridCell.Tab.1.left" timestamp="1595181725560">
+    <state width="1316" height="451" key="GridCell.Tab.1.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595263207140" />
+    <state width="1316" height="451" key="GridCell.Tab.1.left" timestamp="1595263207140">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1316" height="452" key="GridCell.Tab.1.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725560" />
-    <state width="1316" height="452" key="GridCell.Tab.1.right" timestamp="1595181725562">
+    <state width="1316" height="451" key="GridCell.Tab.1.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595263207140" />
+    <state width="1316" height="451" key="GridCell.Tab.1.right" timestamp="1595263207141">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1316" height="452" key="GridCell.Tab.1.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725562" />
-    <state width="1316" height="452" key="GridCell.Tab.2.bottom" timestamp="1595181725566">
+    <state width="1316" height="451" key="GridCell.Tab.1.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595263207141" />
+    <state width="1316" height="451" key="GridCell.Tab.2.bottom" timestamp="1595263207143">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1316" height="452" key="GridCell.Tab.2.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725566" />
-    <state width="1316" height="452" key="GridCell.Tab.2.center" timestamp="1595181725563">
+    <state width="1316" height="451" key="GridCell.Tab.2.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595263207143" />
+    <state width="1316" height="451" key="GridCell.Tab.2.center" timestamp="1595263207142">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1316" height="452" key="GridCell.Tab.2.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725563" />
-    <state width="1316" height="452" key="GridCell.Tab.2.left" timestamp="1595181725563">
+    <state width="1316" height="451" key="GridCell.Tab.2.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595263207142" />
+    <state width="1316" height="451" key="GridCell.Tab.2.left" timestamp="1595263207142">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1316" height="452" key="GridCell.Tab.2.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725563" />
-    <state width="1316" height="452" key="GridCell.Tab.2.right" timestamp="1595181725564">
+    <state width="1316" height="451" key="GridCell.Tab.2.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595263207142" />
+    <state width="1316" height="451" key="GridCell.Tab.2.right" timestamp="1595263207143">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1316" height="452" key="GridCell.Tab.2.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595181725564" />
-    <state width="1284" height="449" key="GridCell.Tab.3.bottom" timestamp="1595171566064">
+    <state width="1316" height="451" key="GridCell.Tab.2.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595263207143" />
+    <state width="1316" height="451" key="GridCell.Tab.3.bottom" timestamp="1595243289652">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="449" key="GridCell.Tab.3.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171566064" />
-    <state width="1284" height="449" key="GridCell.Tab.3.center" timestamp="1595171566063">
+    <state width="1316" height="451" key="GridCell.Tab.3.bottom/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595243289652" />
+    <state width="1316" height="451" key="GridCell.Tab.3.center" timestamp="1595243289651">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="449" key="GridCell.Tab.3.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171566062" />
-    <state width="1284" height="449" key="GridCell.Tab.3.left" timestamp="1595171566062">
+    <state width="1316" height="451" key="GridCell.Tab.3.center/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595243289651" />
+    <state width="1316" height="451" key="GridCell.Tab.3.left" timestamp="1595243289650">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="449" key="GridCell.Tab.3.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171566062" />
-    <state width="1284" height="449" key="GridCell.Tab.3.right" timestamp="1595171566063">
+    <state width="1316" height="451" key="GridCell.Tab.3.left/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595243289650" />
+    <state width="1316" height="451" key="GridCell.Tab.3.right" timestamp="1595243289652">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state width="1284" height="449" key="GridCell.Tab.3.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595171566063" />
+    <state width="1316" height="451" key="GridCell.Tab.3.right/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595243289652" />
     <state x="371" y="186" key="SettingsEditor" timestamp="1595004683202">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
     <state x="371" y="186" key="SettingsEditor/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595004683202" />
-    <state x="555" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1595047772717">
+    <state x="555" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1595228824230">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state x="555" y="380" key="com.intellij.ide.util.TipDialog/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595047772717" />
-    <state x="527" y="256" width="670" height="676" key="search.everywhere.popup" timestamp="1595084431858">
+    <state x="555" y="380" key="com.intellij.ide.util.TipDialog/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595228824230" />
+    <state x="527" y="256" width="670" height="676" key="search.everywhere.popup" timestamp="1595241983458">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
-    <state x="527" y="256" width="670" height="676" key="search.everywhere.popup/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595084431858" />
+    <state x="527" y="256" width="670" height="676" key="search.everywhere.popup/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595241983458" />
     <state x="506" y="238" key="spring file set editor" timestamp="1595001127615">
       <screen x="0" y="23" width="1871" height="1057" />
     </state>
     <state x="506" y="238" key="spring file set editor/0.23.1871.1057/-1366.207.1366.745@0.23.1871.1057" timestamp="1595001127615" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/online/luffyk/service/impl/GoodsCartServiceImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

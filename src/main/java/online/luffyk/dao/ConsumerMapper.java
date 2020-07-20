@@ -30,7 +30,7 @@ public interface ConsumerMapper {
      * @param consumer 用户的信息
      * @return 返回对应的顾客列表
      */
-    List<Consumer> selectConsumerByUserNameAndPassword(Consumer consumer);
+    Consumer selectConsumerByUserNameAndPassword(Consumer consumer);
 
     /**
      *
